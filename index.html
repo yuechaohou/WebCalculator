@@ -1,106 +1,108 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
-<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
-<link rel="stylesheet" type="text/css" href="style.css" />
-<link rel="stylesheet" type="text/css" href="css/vicons-font.css" />
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312"><style type="text/css">
-
-</style>
+	<link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+	<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="css/vicons-font.css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+	<style type="text/css">
+	</style>
 </head>
     
     
 <body>
 <div class="div1">
 	<div class="div2">
-	<img src="edge.png" height="100%" width="100%"/>    
+		<img src="edge.png" height="100%" width="100%"/>    
 	</div>
 	<div class="div5">
 		<div class = "text" id="display">
         	<div id="up" style="width:680px; overflow:hidden;text-overflow:ellipsis;" ></div>
         	<div id="down" style="width:680px; overflow:hidden;text-overflow:ellipsis;"></div>
 		</div>
-    <div class = "buttons">
-		<span id = "lefts">
-	  	 <span id="left"><button class="number button button--ujarak " id = "D" value="d">D</button></span>
-		 <span id="left"><button class="number button button--ujarak  " id="E" value="e">E</button></span>
-		 <span id="left"><button class="number button button--ujarak  " id="F" value="f">F </button></span>
-		 </span>
-		 <div class="rights">
-		 <span id = "rights">
-		 <span id="left"><button class="digit buttonp button--ujarak" value="decimal">D</button></span> 
-		 <span id="left"><button class="back buttonl button--ujarak">&#8592 </button></span>
-		 <span id="left"><button class="clear buttonp button--ujarak">C</button></span>
-		 </span>
-		 </div>
+
+    	<div class = "buttons">
+			<span id = "lefts">
+	  	 		<span id="left"><button class="number button button--ujarak " id = "D" value="d">D</button></span>
+		 		<span id="left"><button class="number button button--ujarak  " id="E" value="e">E</button></span>
+		 		<span id="left"><button class="number button button--ujarak  " id="F" value="f">F </button></span>
+		 	</span>
+		 	<div class="rights">
+		 		<span id = "rights">
+		 			<span id="left"><button class="digit buttonp button--ujarak" value="decimal">D</button></span> 
+		 			<span id="left"><button class="back buttonl button--ujarak">&#8592 </button></span>
+		 			<span id="left"><button class="clear buttonp button--ujarak">C</button></span>
+		 		</span>
+			 </div>
 	
-		<span id = "lefts">
-	  	 <span id="left"><button class="number button button--ujarak  " id="A" value="a">A</button></span>
-		 <span id="left"><button class="number button button--ujarak  " id="B" value="b">B</button></span>
-		 <span id="left"><button class="number button button--ujarak  " id="C" value="c">C</button></span>
-		 </span>
-		 <div class = "rights">
-		 <span id = "rights">
-		<span id="left"><button class="digit buttond button--ujarak" value="binary">B</button></span>
-		<span id="left"><button class="digit buttond button--ujarak" value="octual">O</button></span>
-		<span id="left"><button class="digit buttond button--ujarak" value="hexa">H</button></span>
-		</span>
-		</div>
+				<span id = "lefts">
+	  	 			<span id="left"><button class="number button button--ujarak  " id="A" value="a">A</button></span>
+		 			<span id="left"><button class="number button button--ujarak  " id="B" value="b">B</button></span>
+		 			<span id="left"><button class="number button button--ujarak  " id="C" value="c">C</button></span>
+		 		</span>
+		 	<div class = "rights">
+		 			<span id = "rights">
+					<span id="left"><button class="digit buttond button--ujarak" value="binary">B</button></span>
+					<span id="left"><button class="digit buttond button--ujarak" value="octual">O</button></span>
+					<span id="left"><button class="digit buttond button--ujarak" value="hexa">H</button></span>
+				</span>
+			</div>
 	
-	<span id = "lefts">
-		<span id="left"><button class="number button button--ujarak  " id="7" value="7">7</button></span>
-		<span id="left"><button class="number button button--ujarak  " id="8" value="8">8</button></span> 
-		<span id="left"><button class="number button button--ujarak  " id="9" value="9">9</button></span>
-		</span>
-		<div class = "rights">
-		<span id = "rights">
-		<span id="left"><button class="td buttonl button--ujarak" value="%5">&divide </button></span>
-		<span id="left"><button class="left buttonl button--ujarak" value="#1">(</button></span> 
-		<span id="left"><button class="right buttonl button--ujarak" value="#2">)</button></span>
-		</span>
-		</div>
+			<span id = "lefts">
+				<span id="left"><button class="number button button--ujarak  " id="7" value="7">7</button></span>
+				<span id="left"><button class="number button button--ujarak  " id="8" value="8">8</button></span> 
+				<span id="left"><button class="number button button--ujarak  " id="9" value="9">9</button></span>
+			</span>
+			<div class = "rights">
+				<span id = "rights">
+					<span id="left"><button class="td buttonl button--ujarak" value="%5">&divide </button></span>
+					<span id="left"><button class="left buttonl button--ujarak" value="#1">(</button></span> 
+					<span id="left"><button class="right buttonl button--ujarak" value="#2">)</button></span>
+				</span>
+			</div>
 	
-	<span id = "lefts">
-		<span id="left"><button class="number button button--ujarak  " id="4" value="4"> 4 </button></span>
-		<span id="left"><button class="number button button--ujarak  " id="5" value="5"> 5 </button></span> 
-		<span id="left"><button class="number button button--ujarak  " id="6" value="6"> 6 </button></span> 
-		</span>
-		<div class = "rights">
-		<span id = "rights">
-		<span id="left"><button class="td buttonl button--ujarak" value="%6"> % </button></span>
-		<span id="left"><button class="sqrt buttonl button--ujarak" value="%7"> &#8730 </button></span>
-		<span id="left"><button class="power buttonl button--ujarak" value="%8"> ^2 </button></span>
-		</span>
-		</div>
+			<span id = "lefts">
+				<span id="left"><button class="number button button--ujarak  " id="4" value="4"> 4 </button></span>
+				<span id="left"><button class="number button button--ujarak  " id="5" value="5"> 5 </button></span> 
+				<span id="left"><button class="number button button--ujarak  " id="6" value="6"> 6 </button></span> 
+			</span>
+			<div class = "rights">
+				<span id = "rights">
+					<span id="left"><button class="td buttonl button--ujarak" value="%6"> % </button></span>
+					<span id="left"><button class="sqrt buttonl button--ujarak" value="%7"> &#8730 </button></span>
+					<span id="left"><button class="power buttonl button--ujarak" value="%8"> ^2 </button></span>
+				</span>
+			</div>
     
-	<span id = "lefts">
-		<span id="left"> <button class="number button button--ujarak  " id="1" value="1"> 1 </button></span>      
-		<span id="left"><button class="number button button--ujarak  " id="2" value="2"> 2 </button></span> 
-		<span id="left"><button class="number button button--ujarak  " id="3" value="3"> 3 </button></span>
-		</span>
-		<div class = "rights">
-		<span id = "rights">
-		<span id="left"><button class ="td buttonl button--ujarak" value="%3"> &times </button></span> 
-		<span id="left"><button class="td buttonl button--ujarak" value="%4">/ </button></span>
-		<span id="left"><button class= "equal button2 button--ujarak" value="=" height = "130px"> = </button></span>
-		</span>
-		</div>
+			<span id = "lefts">
+				<span id="left"> <button class="number button button--ujarak  " id="1" value="1"> 1 </button></span>      
+				<span id="left"><button class="number button button--ujarak  " id="2" value="2"> 2 </button></span> 
+				<span id="left"><button class="number button button--ujarak  " id="3" value="3"> 3 </button></span>
+			</span>
+			<div class = "rights">
+				<span id = "rights">
+					<span id="left"><button class ="td buttonl button--ujarak" value="%3"> &times </button></span> 
+					<span id="left"><button class="td buttonl button--ujarak" value="%4">/ </button></span>
+					<span id="left"><button class= "equal button2 button--ujarak" value="=" height = "130px"> = </button></span>
+				</span>
+			</div>
 	
-    <div class="buttons1"> 
-		<span id = "lefts">
-		<span id="left1"><button class="number button3 button--ujarak" id="0" value="0"> 0 </button></span>
-		<span id="left"><button class="dot button button--ujarak  " value="."> . </button></span>
-		</span>
-		<div class = "rights1">
-		<span id = "rights">
-		<span id="left"><button class="pm buttonl button--ujarak" value="%1"> + </button></span> 
-		<span id="left"><button class="pm buttonl button--ujarak" value="%2"> - </button></span>
-		</span>
+    		<div class="buttons1"> 
+				<span id = "lefts">
+					<span id="left1"><button class="number button3 button--ujarak" id="0" value="0"> 0 </button></span>
+					<span id="left"><button class="dot button button--ujarak  " value="."> . </button></span>
+				</span>
+				<div class = "rights1">
+					<span id = "rights">
+						<span id="left"><button class="pm buttonl button--ujarak" value="%1"> + </button></span> 
+						<span id="left"><button class="pm buttonl button--ujarak" value="%2"> - </button></span>
+					</span>
+				</div>
+			</div>
 		</div>
 	</div>
-		
 </div>
 </body>
 
